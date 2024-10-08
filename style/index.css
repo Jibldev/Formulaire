@@ -41,3 +41,26 @@
   color: #a5b4fc;
   text-align: center;
 }
+
+form{
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+  color: white;
+}
+
+fieldset{
+  border:none;
+  width: 100%;
+  text-align: center;
+}
+
+label{
+  color: white;
+}
+
+.nom-email{
+  flex-direction: row;
+  gap: 20px;
+}
